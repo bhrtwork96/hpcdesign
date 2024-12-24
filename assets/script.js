@@ -19,7 +19,7 @@ const data = [
     {
         title:"GAP-593 SQMM",
         desc:"GAP-593 SQMM 24RW/18RW/8TW/7ST(2.95)",
-        img:"/assets/images/gap_593.jpg"
+        img:"assets/images/gap_593.jpg"
     },
     {
         title:"ACCC CASAPLUSE",

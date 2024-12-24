@@ -9,22 +9,22 @@ const data = [
     {
         title:"GAP-516 SQMM",
         desc:"GAP-516 SQMM 14TW/9TW/7ST(2.50)",
-        img:"/assets/images/gap_516.jpg"
+        img:"assets/images/gap_516.jpg"
     },
     {
         title:"ACCC GDANSK",
         desc:"ACCC GDANSK 10TW/6TW/CTC(5.97MM)",
-        img:"/assets/images/gdansk.jpg"
+        img:"assets/images/gdansk.jpg"
     },
     {
         title:"GAP-593 SQMM",
         desc:"GAP-593 SQMM 24RW/18RW/8TW/7ST(2.95)",
-        img:"/assets/images/gap_593.jpg"
+        img:"assets/images/gap_593.jpg"
     },
     {
         title:"ACCC CASAPLUSE",
         desc:"ACCC CASAPLUSE 10TW/6TW/CTC(7.11)",
-        img:"/assets/images/casapluse.jpg"
+        img:"assets/images/casapluse.jpg"
     }
 
 ]

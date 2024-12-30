@@ -20,6 +20,7 @@ async function setData(){
     const data = await response.json();
 
     let htmlCode = "";
+    console.log(data)
 
     for (element of data.hpc_des) {
         let card = `<div class="card" >

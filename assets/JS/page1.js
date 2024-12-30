@@ -40,18 +40,12 @@ async function setData(){
 
 }
 
-function setMenu(){
+async function setMenu(){
 
-    const menus = [
-        {
-            name:"HPC Condcutor",
-            href:"page1.html"
-        },
-        {
-            name:"HPC Drawing",
-            href:"page2.html"
-        }
-    ]
+    const response = await fetch('assets/data.json')
+    const data = await response.json();
+
+    const menus = data.menus;
     let htmlCode = "";
 
     for (element of menus) {
